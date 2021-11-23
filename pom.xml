@@ -21,7 +21,7 @@
       	<groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
         <version>3.3.0</version>
-    
+
         <configuration>
             <descriptorRefs>
                 <descriptorRef>jar-with-dependencies</descriptorRef>
@@ -64,11 +64,11 @@
   		<artifactId>connect-transforms</artifactId>
   		<version>${kafkaconnect.version}</version>
   	</dependency>
-	<dependency>
+	  <dependency>
 	    <groupId>org.junit.jupiter</groupId>
 	    <artifactId>junit-jupiter-api</artifactId>
 	    <version>5.8.1</version>
 	    <scope>test</scope>
-	</dependency>
+	  </dependency>
   </dependencies>
 </project>
