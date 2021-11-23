@@ -34,8 +34,8 @@ To use the ByteToUuidString SMT at your connector to transform the id field from
 {
   //...
   "transforms": "byteToUuid",
-  "transforms.uuid.type": "systems.edgar.kafka.mongodb.transforms.ByteToUuidString$Value",
-  "transforms.uuid.field.name": "id",
+  "transforms.byteToUuid.type": "systems.edgar.kafka.mongodb.transforms.ByteToUuidString$Value",
+  "transforms.byteToUuid.field.name": "id",
   //...
 }
 ```
